@@ -81,15 +81,11 @@ body {
 .ikon {
     font-size: 34px;
     text-align: center;
-    padding-top: 21px;
+    padding-top: 18px;
     color: cornflowerblue;
-}
-
-.ikon a {
-    display: inline-block;
-    height: 50px;
-    width: 45px;
     text-decoration: none;
+    width: 60px;
+    min-height: 60px;
 }
  
 
@@ -194,12 +190,18 @@ article.post-item h2 {
     color: inherit;
     height: 50px;
     font-weight: bold;
+    min-width: 50px;
 }
 
 .post-item__description {
     margin-top: 16px;
     font-size: 14px;
     line-height: 1.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* number of lines to show */
+    -webkit-box-orient: vertical;
 }
 
 .post-item__figcaption {

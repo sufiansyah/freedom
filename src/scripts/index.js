@@ -18,7 +18,7 @@ data.restaurants.forEach(function(restaurants) {
                 alt="${restaurants.name}">
                 <figcaption class="post-item__figcaption"><a href="#">Rating: ${restaurants.rating}</a></figcaption>
                 <div class="post-item__content">
-                    <h1 class="post-item__title"><a href="#">${restaurants.name}</a></h1>
+                    <h3 class="post-item__title"><a href="#">${restaurants.name}</a></h1>
                     <p class="post-item__description">${restaurants.description}</p>
                 </div>
             </article>
